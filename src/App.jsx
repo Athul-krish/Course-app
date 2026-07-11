@@ -1,7 +1,9 @@
+import InsertCourse from "./components/InsertCourse"
+
 function App() {
   return (
     <>
-      
+      <InsertCourse/>
     </>
   )
 }
