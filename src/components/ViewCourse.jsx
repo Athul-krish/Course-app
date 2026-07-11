@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import Navbar from "./Navbar";
 
 const ViewCourse = () => {
   const [courses, setCourses] = useState([]);
 
   const fetchData = () => {
     axios
-      .get("http://192.168.33.245:5001/api/courses")
+      .get("https://host-demo-app.onrender.com/api/courses")
       .then((response) => {
         setCourses(response.data);
       })
@@ -21,6 +22,7 @@ const ViewCourse = () => {
 
   return (
     <div>
+        <Navbar/>
       <div className="container mt-4">
         <div className="row">
           <div className="col col-12">

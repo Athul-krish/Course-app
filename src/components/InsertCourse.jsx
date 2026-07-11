@@ -1,9 +1,10 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 const InsertCourse = () => {
   return (
     <div>
-
+    <Navbar/>
       <div className="container mt-4">
         <div className="row">
           <div className="col col-12 col-sm-12 col-md-8 col-lg-6 col-xl-6 col-xxl-6 mx-auto">
