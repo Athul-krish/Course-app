@@ -7,7 +7,7 @@ const ViewCourse = () => {
 
   const fetchData = () => {
     axios
-      .get("http://192.168.33.245:5001/api/courses")
+      .get("https://host-demo-app.onrender.com/api/courses")
       .then((response) => {
         setCourses(response.data);
       })
