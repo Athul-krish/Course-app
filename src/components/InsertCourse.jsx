@@ -4,18 +4,14 @@ import axios from 'axios'
 
 const InsertCourse = () => {
 
-
  const [input, changeInput] = useState(
-
   {
-
 
      course_name: "",
     duration: "",
     fee:"" ,
     mode: "",
     trainer: ""
-
   }
  )
  
